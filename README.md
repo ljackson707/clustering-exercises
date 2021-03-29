@@ -19,3 +19,7 @@ Try to pair your takeaways with the individual chart or test it came from. Donâ€
 
 Try to title your chart with the takeaway you want the reader to get from the chart.
 Donâ€™t just add rubric items for the sake of checking a box (charts and hypotheses testing). Read incorporate this item into your analysis in a meaningful way.
+
+
+
+# We are intrested in Logerror for our target in the project (zestimate - sales_price)log, This will be used to predict the actual values of homes, trying to predict the error (residual plots, contiuoius variable).
