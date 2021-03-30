@@ -159,7 +159,7 @@ def explore_bivariate_quant(train, categorical_target, continuous_target, quant_
     spearmans = compare_relationship(train, continuous_target, quant_var)
     plt.figure(figsize=(4,4))
     boxen = plot_boxen(train, categorical_target, quant_var)
-    swarm = plot_swarm(train, categorical_target, quant_var)
+
     plt.show()
     scatter = plot_scatter(train, categorical_target, continuous_target, quant_var)
     plt.show()
