@@ -197,11 +197,6 @@ def plot_scatter(train, categorical_target, continuous_target, quant_var):
 
 
 def explore_multivariate(train, categorical_target, binary_var, quant_vars):
-    '''
-    '''
-    plot_swarm_grid_with_color(train, categorical_target, binary_var, quant_vars)
-    violin = plot_violin_grid_with_color(train, categorical_target, binary_var, quant_vars)
-    plt.show()
     pair = sns.pairplot(data=train, vars=quant_vars, hue=categorical_target)
     plt.show()
     plot_all_continuous_vars(train, categorical_target, quant_vars)
